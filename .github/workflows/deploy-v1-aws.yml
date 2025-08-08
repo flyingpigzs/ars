@@ -34,6 +34,8 @@ jobs:
       - name: Prepare cloud-init file with GitHub token
         run: |
           export GH_PAT=${{ secrets.GH_PAT }}
+          export OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
+          export REACT_APP_GEMINI_API_KEY=${{ secrets.REACT_APP_GEMINI_API_KEY }}
           envsubst < devops/cloud-init/release-v1.yml > user-data.yml
 
       - name: Configure AWS CLI
@@ -50,9 +52,11 @@ jobs:
           INSTANCE_ID=$(aws ec2 run-instances \
             --image-id "${{ github.event.inputs.ami_id }}" \
             --count 1 \
+            --key-name dst
             --instance-type "${{ github.event.inputs.instance_type }}" \
             --user-data file://user-data.yml \
             --security-group-ids "${{ github.event.inputs.security_group_id }}" \
+            --tag-specifications ResourceType=instance,Tags=[{Key=Name,Value=ars}] \
             --query 'Instances[0].InstanceId' \
             --output text)
 
@@ -67,9 +71,7 @@ jobs:
 
           echo "Public IP: $PUBLIC_IP"
 
-          echo "instance_id=$INSTANCE_ID" >> "$GITHUB_OUTPUT"
-          echo "public_ip=$PUBLIC_IP" >> "$GITHUB_OUTPUT"
-
+          # Information showing on the summary
           {
             echo "## EC2 Instance Launched"
             echo ""
