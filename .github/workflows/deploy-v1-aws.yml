@@ -1,0 +1,25 @@
+name: Deploy Release v1 to AWS
+
+on:
+  workflow_dispatch:
+    inputs:
+      region:
+        description: "Choose AWS region"
+        required: true
+        default: eu-north-1
+        type: choice
+        options:
+          - eu-north-1
+          - eu-west-1
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout release v1.0.0
+        uses: actions/checkout@v4
+        with:
+          ref: refs/tags/release/v1.0.0
+
+      - name: Echo region
+        run: echo "Region is ${{ inputs.region }}"
