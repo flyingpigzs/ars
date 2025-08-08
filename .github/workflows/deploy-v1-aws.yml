@@ -16,7 +16,7 @@ on:
         required: true
         default: 't3.medium'
       ami_id:
-        description: 'AMI ID'
+        description: 'AMI ID (ami-xxxxxxxxxxxx)'
         required: true
       security_group_id:
         description: 'Security Group ID (sg-xxxxxxxxxxxxxx)'
@@ -52,7 +52,7 @@ jobs:
           INSTANCE_ID=$(aws ec2 run-instances \
             --image-id "${{ github.event.inputs.ami_id }}" \
             --count 1 \
-            --key-name dst
+            --key-name dst \
             --instance-type "${{ github.event.inputs.instance_type }}" \
             --user-data file://user-data.yml \
             --security-group-ids "${{ github.event.inputs.security_group_id }}" \
