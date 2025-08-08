@@ -8,11 +8,11 @@ groups:
   - ars
 
 users:
+  - default
   - name: ars
     groups: ars
     shell: /bin/bash
-    home: /home/ars
-    system: true
+    homedir: /home/ars
 
 runcmd:
   - echo "OPENAI_API_KEY=${OPENAI_API_KEY}" >> /etc/environment
