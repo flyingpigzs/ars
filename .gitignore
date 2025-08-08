@@ -1,0 +1,57 @@
+# --- Global ignores ---
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+.env
+.env.*
+
+# --- Python ignores ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+.eggs/
+*.sqlite3
+*.db
+.venv/
+
+# --- Node.js / frontend ignores ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.vscode/
+.next/
+out/
+coverage/
+dist/
+build/
+
+# --- Specific project ignores ---
+# Backend
+/backend/__pycache__/
+/backend/*.pyc
+/backend/data/chatHistory/*
+
+# Frontend
+/frontend/node_modules/
+/frontend/.next/
+/frontend/.turbo/
+
+# Google Realtime
+/google-realtime/node_modules/
+/google-realtime/public/build/
+/google-realtime/.next/
+/google-realtime/.turbo/
+
+# Optional: lockfiles for specific package managers if not using them
+# /frontend/yarn.lock
+# /frontend/pnpm-lock.yaml
+# /google-realtime/yarn.lock
+# /google-realtime/pnpm-lock.yaml

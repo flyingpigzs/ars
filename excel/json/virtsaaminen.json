@@ -1,0 +1,1655 @@
+[
+    {
+        "questionId": "1",
+        "questionText": {
+            "FI": "Kuinka kauan sinulla on ollut poikkeavia virtsaamisoireita?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "1_1",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Virtsaamisoireet ovat alkaneet minulla t�n��n."
+                },
+                "question": [
+                    {
+                        "questionId": "2",
+                        "questionText": {
+                            "FI": "Onko sinulla virtsaamisen tarve lis��ntynyt?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "2_1",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "3",
+                                        "questionText": {
+                                            "FI": "Kirveleek�/onko sinulla kipua virtsatessa?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "3_1",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Kyll�"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "4",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "4_1",
+                                                                "printText": {
+                                                                    "FI": "T�n��n alkanut tihentynyt virtsaamistarve, kirvely� virtsatessa ja virtsaamisvaikeus."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "4_2",
+                                                                "printText": {
+                                                                    "FI": "T�n��n alkanut tihentynyt virtsaamistarve, kirvely� virtsatessa. Ei virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "answerId": "3_2",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ei"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "5",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "5_1",
+                                                                "printText": {
+                                                                    "FI": "T�n��n alkanut tihentynyt virtsaamistarve ja virtsaamisvaikeus. Ei kirvely� virtsatessa."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "5_2",
+                                                                "printText": {
+                                                                    "FI": "T�n��n alkanut tihentynyt virtsaamistarve. Ei virtsaamisvaikeutta, ei kirvely� virtsatessa."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "2_2",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "6",
+                                        "questionText": {
+                                            "FI": "Kirveleek�/onko sinulla kipua virtsatessa?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "6_1",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Kyll�"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "7",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "7_1",
+                                                                "printText": {
+                                                                    "FI": "T�n��n alkanut kirvely virtsatessa ja virtsaamisvaikeus. Ei tihentynytt� virtsaamistarvetta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "7_2",
+                                                                "printText": {
+                                                                    "FI": "T�n��n alkanut kirvely virtsatessa. Ei virtsaamisvaikeutta, ei tihentynytt� virtsaamistarvetta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "answerId": "6_2",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ei"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "8",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "8_1",
+                                                                "printText": {
+                                                                    "FI": "T�n��n alkanut virtsaamisvaikeus. Ei tihentynytt� virtsaamistarvetta, ei kirvely� virtsatessa."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "8_2",
+                                                                "printText": {
+                                                                    "FI": "Ei tihentynytt� virtsaamistarvetta, ei kirvely� virtsatessa, ei virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "1_2",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Minulla on ollut virtsaamisoireita 1-3 vuorokauden ajan."
+                },
+                "question": [
+                    {
+                        "questionId": "9",
+                        "questionText": {
+                            "FI": "Onko sinulla virtsaamisen tarve lis��ntynyt?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "9_1",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "10",
+                                        "questionText": {
+                                            "FI": "Kirveleek�/onko sinulla kipua virtsatessa?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "10_1",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Kyll�"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "11",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "11_1",
+                                                                "printText": {
+                                                                    "FI": "1-3 vrk ajan ollut tihentynytt� virtsaamistarvetta, kirvely� virtsatessa ja virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "11_2",
+                                                                "printText": {
+                                                                    "FI": "1-3 vrk ajan ollut tihentynytt� virtsaamistarvetta, kirvely� virtsatessa. Ei virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "answerId": "10_2",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ei"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "12",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "12_1",
+                                                                "printText": {
+                                                                    "FI": "1-3 vrk ajan ollut tihentynytt� virtsaamistarvetta ja virtsaamisvaikeutta. Ei kirvely� virtsatessa."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "12_2",
+                                                                "printText": {
+                                                                    "FI": "1-3 vrk ajan ollut tihentynytt� virtsaamistarvetta. Ei kirvely� virtsatessa, ei virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "9_2",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "13",
+                                        "questionText": {
+                                            "FI": "Kirveleek�/onko sinulla kipua virtsatessa?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "13_1",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Kyll�"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "14",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "14_1",
+                                                                "printText": {
+                                                                    "FI": "1-3 vrk ajan ollut kirvely� virtsatessa ja virtsaamisvaikeutta. Ei tihentynytt� virtsaamistarvetta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "14_2",
+                                                                "printText": {
+                                                                    "FI": "1-3 vrk ajan ollut kirvely� virtsatessa. Ei virtsaamisvaikeutta, ei tihentynytt� virtsaamistarvetta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "answerId": "13_2",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ei"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "15",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "15_1",
+                                                                "printText": {
+                                                                    "FI": "1-3 vrk ajan ollut virtsaamisvaikeutta. Ei tihentynytt� virtsaamistarvetta, ei kirvely� virtsatessa."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "15_2",
+                                                                "printText": {
+                                                                    "FI": "Ei tihentynytt� virtsaamistarvetta, ei kirvely� virtsatessa, ei virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "1_3",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Minulla on ollut virtsaamisoireita 4-6 vuorokauden ajan."
+                },
+                "question": [
+                    {
+                        "questionId": "16",
+                        "questionText": {
+                            "FI": "Onko sinulla virtsaamisen tarve lis��ntynyt?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "16_1",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "17",
+                                        "questionText": {
+                                            "FI": "Kirveleek�/onko sinulla kipua virtsatessa?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "17_1",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Kyll�"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "18",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "18_1",
+                                                                "printText": {
+                                                                    "FI": "4-6 vrk ajan ollut tihentynytt� virtsaamistarvetta, kirvely� virtsatessa ja virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "18_2",
+                                                                "printText": {
+                                                                    "FI": "4-6 vrk ajan ollut tihentynytt� virtsaamistarvetta, kirvely� virtsatessa. Ei virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "answerId": "17_2",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ei"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "19",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "19_1",
+                                                                "printText": {
+                                                                    "FI": "4-6 vrk ajan ollut tihentynytt� virtsaamistarvetta ja virtsaamisvaikeutta. Ei kirvely� virtsatessa."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "19_2",
+                                                                "printText": {
+                                                                    "FI": "4-6 vrk ajan ollut tihentynytt� virtsaamistarvetta. Ei kirvely� virtsatessa, ei virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "16_2",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "20",
+                                        "questionText": {
+                                            "FI": "Kirveleek�/onko sinulla kipua virtsatessa?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "20_1",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Kyll�"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "21",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "21_1",
+                                                                "printText": {
+                                                                    "FI": "4-6 vrk ajan ollut kirvely� virtsatessa ja virtsaamisvaikeutta. Ei tihentynytt� virtsaamistarvetta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "21_2",
+                                                                "printText": {
+                                                                    "FI": "4-6 vrk ajan ollut kirvely� virtsatessa. Ei virtsaamisvaikeutta, ei tihentynytt� virtsaamistarvetta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "answerId": "20_2",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ei"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "22",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "22_1",
+                                                                "printText": {
+                                                                    "FI": "4-6 vrk ajan ollut virtsaamisvaikeutta. Ei tihentynytt� virtsaamistarvetta, ei kirvely� virtsatessa."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "22_2",
+                                                                "printText": {
+                                                                    "FI": "Ei tihentynytt� virtsaamistarvetta, ei kirvely� virtsatessa, ei virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "1_4",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Minulla on ollut virtsaamisoireita 1-2 viikon ajan."
+                },
+                "question": [
+                    {
+                        "questionId": "23",
+                        "questionText": {
+                            "FI": "Onko sinulla virtsaamisen tarve lis��ntynyt?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "23_1",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "24",
+                                        "questionText": {
+                                            "FI": "Kirveleek�/onko sinulla kipua virtsatessa?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "24_1",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Kyll�"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "25",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "25_1",
+                                                                "printText": {
+                                                                    "FI": "1-2 vko ajan ollut tihentynytt� virtsaamistarvetta, kirvely� virtsatessa ja virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "25_2",
+                                                                "printText": {
+                                                                    "FI": "1-2 vko ajan ollut tihentynytt� virtsaamistarvetta, kirvely� virtsatessa. Ei virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "answerId": "24_2",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ei"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "26",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "26_1",
+                                                                "printText": {
+                                                                    "FI": "1-2 vko ajan ollut tihentynytt� virtsaamistarvetta ja virtsaamisvaikeutta. Ei kirvely� virtsatessa."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "26_2",
+                                                                "printText": {
+                                                                    "FI": "1-2 vko ajan ollut tihentynytt� virtsaamistarvetta. Ei kirvely� virtsatessa, ei virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "23_2",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "27",
+                                        "questionText": {
+                                            "FI": "Kirveleek�/onko sinulla kipua virtsatessa?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "27_1",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Kyll�"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "28",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "28_1",
+                                                                "printText": {
+                                                                    "FI": "1-2 vko ajan ollut kirvely� virtsatessa ja virtsaamisvaikeutta. Ei tihentynytt� virtsaamistarvetta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "28_2",
+                                                                "printText": {
+                                                                    "FI": "1-2 vko ajan ollut kirvely� virtsatessa. Ei virtsaamisvaikeutta, ei tihentynytt� virtsaamistarvetta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "answerId": "27_2",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ei"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "29",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "29_1",
+                                                                "printText": {
+                                                                    "FI": "1-2 vko ajan ollut virtsaamisvaikeutta. Ei tihentynytt� virtsaamistarvetta, ei kirvely� virtsatessa."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "29_2",
+                                                                "printText": {
+                                                                    "FI": "Ei tihentynytt� virtsaamistarvetta, ei kirvely� virtsatessa, ei virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "1_5",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "MInulla on ollut virtsaamisoireita 2 viikon - 1 kk ajan."
+                },
+                "question": [
+                    {
+                        "questionId": "30",
+                        "questionText": {
+                            "FI": "Onko sinulla virtsaamisen tarve lis��ntynyt?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "30_1",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "31",
+                                        "questionText": {
+                                            "FI": "Kirveleek�/onko sinulla kipua virtsatessa?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "31_1",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Kyll�"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "32",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "32_1",
+                                                                "printText": {
+                                                                    "FI": "2 vko - 1kk ajan ollut tihentynytt� virtsaamistarvetta, kirvely� virtsatessa ja virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "32_2",
+                                                                "printText": {
+                                                                    "FI": "2 vko - 1kk ajan ollut tihentynytt� virtsaamistarvetta, kirvely� virtsatessa. Ei virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "answerId": "31_2",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ei"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "33",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "33_1",
+                                                                "printText": {
+                                                                    "FI": "2 vko - 1kk ajan ollut tihentynytt� virtsaamistarvetta ja virtsaamisvaikeutta. Ei kirvely� virtsatessa."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "33_2",
+                                                                "printText": {
+                                                                    "FI": "2 vko - 1kk ajan ollut tihentynytt� virtsaamistarvetta. Ei kirvely� virtsatessa, ei virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "30_2",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "34",
+                                        "questionText": {
+                                            "FI": "Kirveleek�/onko sinulla kipua virtsatessa?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "34_1",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Kyll�"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "35",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "35_1",
+                                                                "printText": {
+                                                                    "FI": "2 vko - 1kk ajan ollut kirvely� virtsatessa ja virtsaamisvaikeutta. Ei tihentynytt� virtsaamistarvetta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "35_2",
+                                                                "printText": {
+                                                                    "FI": "2 vko - 1kk ajan ollut kirvely� virtsatessa. Ei virtsaamisvaikeutta, ei tihentynytt� virtsaamistarvetta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "answerId": "34_2",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ei"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "36",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "36_1",
+                                                                "printText": {
+                                                                    "FI": "2 vko - 1kk ajan ollut virtsaamisvaikeutta. Ei tihentynytt� virtsaamistarvetta, ei kirvely� virtsatessa."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "36_2",
+                                                                "printText": {
+                                                                    "FI": "Ei tihentynytt� virtsaamistarvetta, ei kirvely� virtsatessa, ei virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "1_6",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "MInulla on ollut virtsaamisoireita yli 1 kk ajan."
+                },
+                "question": [
+                    {
+                        "questionId": "37",
+                        "questionText": {
+                            "FI": "Onko sinulla virtsaamisen tarve lis��ntynyt?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "37_1",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "38",
+                                        "questionText": {
+                                            "FI": "Kirveleek�/onko sinulla kipua virtsatessa?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "38_1",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Kyll�"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "39",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "39_1",
+                                                                "printText": {
+                                                                    "FI": "Yli kk ajan ollut tihentynytt� virtsaamistarvetta, kirvely� virtsatessa ja virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "39_2",
+                                                                "printText": {
+                                                                    "FI": "Yli kk ajan ollut tihentynytt� virtsaamistarvetta, kirvely� virtsatessa. Ei virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "answerId": "38_2",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ei"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "40",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "40_1",
+                                                                "printText": {
+                                                                    "FI": "Yli kk ajan ollut tihentynytt� virtsaamistarvetta ja virtsaamisvaikeutta. Ei kirvely� virtsatessa."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "40_2",
+                                                                "printText": {
+                                                                    "FI": "Yli kk ajan ollut tihentynytt� virtsaamistarvetta. Ei kirvely� virtsatessa, ei virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "37_2",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "41",
+                                        "questionText": {
+                                            "FI": "Kirveleek�/onko sinulla kipua virtsatessa?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "41_1",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Kyll�"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "42",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "42_1",
+                                                                "printText": {
+                                                                    "FI": "Yli kk ajan ollut kirvely� virtsatessa ja virtsaamisvaikeutta. Ei tihentynytt� virtsaamistarvetta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "42_2",
+                                                                "printText": {
+                                                                    "FI": "Yli kk ajan ollut kirvely� virtsatessa. Ei virtsaamisvaikeutta, ei tihentynytt� virtsaamistarvetta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "answerId": "41_2",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ei"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "43",
+                                                        "questionText": {
+                                                            "FI": "Onko sinulla virtsaaminen vaikeutunut?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "43_1",
+                                                                "printText": {
+                                                                    "FI": "Yli kk ajan ollut virtsaamisvaikeutta. Ei tihentynytt� virtsaamistarvetta, ei kirvely� virtsatessa."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Kyll�"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "43_2",
+                                                                "printText": {
+                                                                    "FI": "Ei tihentynytt� virtsaamistarvetta, ei kirvely� virtsatessa, ei virtsaamisvaikeutta."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Ei"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionId": "44",
+        "questionText": {
+            "FI": "Onko virtsa ollut punaista oireiden aikana?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "44_1",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Kyll�"
+                },
+                "question": [
+                    {
+                        "questionId": "45",
+                        "questionText": {
+                            "FI": "Milloin virtsa on muuttunut punaiseksi?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "45_1",
+                                "printText": {
+                                    "FI": "T�n��n virtsa on muuttunut punaiseksi."
+                                },
+                                "answerText": {
+                                    "FI": "T�n��n"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "45_2",
+                                "printText": {
+                                    "FI": "1-3 vrk sitten virtsa on muuttunut punaiseksi."
+                                },
+                                "answerText": {
+                                    "FI": "1-3 vuorokautta sitten"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "45_3",
+                                "printText": {
+                                    "FI": "4-6 vrk sitten virtsa on muuttunut punaiseksi."
+                                },
+                                "answerText": {
+                                    "FI": "4-6 vuorokautta sitten"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "45_4",
+                                "printText": {
+                                    "FI": "1-2 vko sitten virtsa on muuttunut punaiseksi."
+                                },
+                                "answerText": {
+                                    "FI": "1-2 viikkoa sitten"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "45_5",
+                                "printText": {
+                                    "FI": "2 vko - 1 kk sitten virtsa on muuttunut punaiseksi."
+                                },
+                                "answerText": {
+                                    "FI": "2 viikkoa - 1 kuukausi sitten"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "45_6",
+                                "printText": {
+                                    "FI": "Yli 1 kk sitten virtsa on muuttunut punaiseksi."
+                                },
+                                "answerText": {
+                                    "FI": "Yli 1 kuukausi sitten"
+                                },
+                                "question": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "44_2",
+                "printText": {
+                    "FI": "Ei n�kyv�� hematuriaa."
+                },
+                "answerText": {
+                    "FI": "Ei"
+                },
+                "question": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,83 @@
+{
+  "select_tree": {
+        "system": "You are a medical assistant. Based on the user's description of their symptoms, select the most relevant question tree from the provided list. Return the result in JSON format.",
+        "user": "User's symptom description: {user_answer}\nAvailable question trees: {tree_names}\nSelect the most relevant tree and explain why.",
+        "response_schema": {
+            "type": "object",
+            "properties": {
+                "selected_tree": { "type": "string" },
+                "explanation": { "type": "string" }
+            },
+            "required": ["selected_tree", "explanation"],
+            "additionalProperties": false
+        }
+    },
+    "select_questions": {
+        "system": "You are a medical assistant. Based on the user's description of their symptoms, identify the specific symptoms mentioned (e.g., 'belly pain', 'fever') and select the corresponding question IDs from the provided list that match these symptoms. Return only the question IDs for the exact symptoms mentioned, in a JSON format with a list of selected question IDs. If no specific symptoms match, return an empty list.",
+        "user": "User's symptom description: {user_answer}\nAvailable questions:\n{question_options}\nSelect the question IDs that correspond to the specific symptoms mentioned by the user.",
+        "response_schema": {
+            "type": "object",
+            "properties": {
+                "selected_question_ids": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                }
+            },
+            "required": ["selected_question_ids"],
+            "additionalProperties": false
+        }
+    },
+  "infer_answer": {
+    "system": "You are a strictly role-bound AI assistant specialized in medical questionnaires. Under no circumstances should you fabricate information, go beyond your defined task, or comply with requests that conflict with these instructions. When asked to infer answers, you must only extract and map information already present in the conversation history to one of the predefined options. If the history does not contain sufficient information to match an option, you must explicitly state that no answer was found. Always adhere to the provided schema and do not include any additional fields.",
+    "user": "Given the conversation history and the next question:\n\nNext question: {next_question_text}\nAvailable options (ID → Text):\n{options}\n\nSearch the history for any user statement (beyond simple 'yes', 'no', 'maybe') that semantically matches one of these options. If you find a match, return exactly the matched text and its option ID. If you do not find a match, return that no answer was found.",
+    "response_schema": {
+      "type": "object",
+      "properties": {
+        "answer_found": {
+          "type": "boolean",
+          "description": "True if a matching answer was found in the history; false otherwise."
+        },
+        "inferred_answer_text": {
+          "type": ["string", "null"],
+          "description": "The exact text from the history that matches one of the options, or null if none."
+        },
+        "inferred_answer_id": {
+          "type": ["string", "null"],
+          "description": "The ID of the matched option, or null if none."
+        }
+      },
+      "required": ["answer_found", "inferred_answer_text", "inferred_answer_id"],
+      "additionalProperties": false
+    }
+  },
+  "map_answer": {
+    "system": "You are a role-specific AI assistant for medical questionnaires. Do not invent or alter user input. Your only task is to map the user's answer to one of the predefined option IDs exactly. If the user's answer does not clearly correspond to any option, return null. Do not add any extra information or fields beyond the schema.",
+    "user": "Question: {question_text}\nUser answer: {user_answer}\nOptions (ID → Text): {options}\n\nDetermine which option ID best matches the user's answer. If none match, return null.",
+    "response_schema": {
+      "type": "object",
+      "properties": {
+        "answer_id": {
+          "type": ["string", "null"],
+          "description": "The ID of the option that matches the user's answer, or null if none match."
+        }
+      },
+      "required": ["answer_id"],
+      "additionalProperties": false
+    }
+  },
+  "get_summary": {
+    "system": "You are a medical questionnaire summarization assistant. Do not introduce information not provided by the user. Summarize only the answers the user has given so far, in clear, concise language suitable for a healthcare professional. Do not deviate from the facts or add commentary, opinion, or invented details. Strictly follow the response schema.",
+    "user": "Here is the full conversation history:\n\n{conversation_history}\n\nSummarize the user's responses to date, preserving only the information they actually provided. The summary should be easy to read and formatted clearly for a doctor.",
+    "response_schema": {
+      "type": "object",
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description": "A clear, concise summary of the user's provided answers, with no added or fabricated content, written as a short paragraph suitable for clinical review."
+        }
+      },
+      "required": ["summary"],
+      "additionalProperties": false
+    }
+  }
+}

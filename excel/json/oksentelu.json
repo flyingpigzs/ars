@@ -1,0 +1,1310 @@
+[
+    {
+        "questionId": "1",
+        "questionText": {
+            "FI": "Kuinka kauan sinulla on ollut oksentelua?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "1_1",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Oksentelu on alkanut minulla t�n��n."
+                },
+                "question": [
+                    {
+                        "questionId": "2",
+                        "questionText": {
+                            "FI": "Kuinka monta kertaa viimeisen vuorokauden sis�ll� olet oksentanut?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "2_1",
+                                "printText": {
+                                    "FI": "T�n��n alkanut oksentelu, viimeisen vrk aikana oksentanut 1-2 kertaa."
+                                },
+                                "answerText": {
+                                    "FI": "1-2 kertaa"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "2_2",
+                                "printText": {
+                                    "FI": "T�n��n alkanut oksentelu, viimeisen vrk aikana oksentanut 3-5 kertaa."
+                                },
+                                "answerText": {
+                                    "FI": "3-5 kertaa"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "2_3",
+                                "printText": {
+                                    "FI": "T�n��n alkanut oksentelu, viimeisen vrk aikana oksentanut yli 5 kertaa."
+                                },
+                                "answerText": {
+                                    "FI": "yli 5 kertaa"
+                                },
+                                "question": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "1_2",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Minulla on ollut oksentelua 1-3 vuorokauden ajan."
+                },
+                "question": [
+                    {
+                        "questionId": "3",
+                        "questionText": {
+                            "FI": "Kuinka monta kertaa viimeisen vuorokauden sis�ll� olet oksentanut?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "3_1",
+                                "printText": {
+                                    "FI": "1-3 vrk ajan ollut oksentelua, viimeisen vrk aikana oksentanut 1-2 kertaa."
+                                },
+                                "answerText": {
+                                    "FI": "1-2 kertaa"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "3_2",
+                                "printText": {
+                                    "FI": "1-3 vrk ajan ollut oksentelua, viimeisen vrk aikana oksentanut 3-5 kertaa."
+                                },
+                                "answerText": {
+                                    "FI": "3-5 kertaa"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "3_3",
+                                "printText": {
+                                    "FI": "1-3 vrk ajan ollut oksentelua, viimeisen vrk aikana oksentanut yli 5 kertaa."
+                                },
+                                "answerText": {
+                                    "FI": "yli 5 kertaa"
+                                },
+                                "question": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "1_3",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Minulla on ollut oksentelua 4-6 vuorokauden ajan."
+                },
+                "question": [
+                    {
+                        "questionId": "4",
+                        "questionText": {
+                            "FI": "Onko oksentelu pahentunut?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "4_1",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "5",
+                                        "questionText": {
+                                            "FI": "Kuinka monta kertaa viime vuorokauden sis�ll� olet oksentanut?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "5_1",
+                                                "printText": {
+                                                    "FI": "4-6 vrk ajan ollut pahenevaa oksentelua, viimeisen vrk aikana oksentanut 1-2 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "1-2 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "5_2",
+                                                "printText": {
+                                                    "FI": "4-6 vrk ajan ollut pahenevaa oksentelua, viimeisen vrk aikana oksentanut 3-5 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "3-5 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "5_3",
+                                                "printText": {
+                                                    "FI": "4-6 vrk ajan ollut pahenevaa oksentelua, viimeisen vrk aikana oksentanut yli 5 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "yli 5 kertaa"
+                                                },
+                                                "question": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "4_2",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "6",
+                                        "questionText": {
+                                            "FI": "Kuinka monta kertaa viime vuorokauden sis�ll� olet oksentanut?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "6_1",
+                                                "printText": {
+                                                    "FI": "4-6 vrk ajan ollut oksentelua, viimeisen vrk aikana oksentanut 1-2 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "1-2 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "6_2",
+                                                "printText": {
+                                                    "FI": "4-6 vrk ajan ollut oksentelua, viimeisen vrk aikana oksentanut 3-5 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "3-5 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "6_3",
+                                                "printText": {
+                                                    "FI": "4-6 vrk ajan ollut oksentelua, viimeisen vrk aikana oksentanut yli 5 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "yli 5 kertaa"
+                                                },
+                                                "question": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "1_4",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Minulla on ollut oksentelua 1-2 viikon ajan."
+                },
+                "question": [
+                    {
+                        "questionId": "7",
+                        "questionText": {
+                            "FI": "Onko viime p�ivin� oksentelu pahentunut?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "7_1",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "8",
+                                        "questionText": {
+                                            "FI": "Kuinka monta kertaa viimeisen vuorokauden sis�ll� olet oksentanut?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "8_1",
+                                                "printText": {
+                                                    "FI": "1-2 viikon ajan ollut pahenevaa oksentelua, viimeisen vrk aikana oksentanut 1-2 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "1-2 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "8_2",
+                                                "printText": {
+                                                    "FI": "1-2 viikon ajan ollut pahenevaa oksentelua,  viimeisen vrk aikana oksentanut 3-5 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "3-5 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "8_3",
+                                                "printText": {
+                                                    "FI": "1-2 viikon ajan ollut pahenevaa oksentelua, viimeisen vrk aikana oksentanut yli 5 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "yli 5 kertaa"
+                                                },
+                                                "question": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "7_2",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "9",
+                                        "questionText": {
+                                            "FI": "Kuinka monta kertaa viimeisen vuorokauden sis�ll� olet oksentanut?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "9_1",
+                                                "printText": {
+                                                    "FI": "1-2 viikon ajan ollut oksentelua, viimeisen vrk aikana oksentanut 1-2 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "1-2 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "9_2",
+                                                "printText": {
+                                                    "FI": "1-2 viikon ajan ollut oksentelua, viimeisen vrk aikana oksentanut 3-5 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "3-5 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "9_3",
+                                                "printText": {
+                                                    "FI": "1-2 viikon ajan ollut oksentelua, viimeisen vrk aikana oksentanut yli 5 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "yli 5 kertaa"
+                                                },
+                                                "question": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "1_5",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Minulla on ollut oksentelua 2 viikon - 1kk ajan."
+                },
+                "question": [
+                    {
+                        "questionId": "10",
+                        "questionText": {
+                            "FI": "Onko viime p�ivin� oksentelu pahentunut?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "10_1",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "11",
+                                        "questionText": {
+                                            "FI": "Kuinka monta kertaa viimeisen vuorokauden sis�ll� olet oksentanut?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "11_1",
+                                                "printText": {
+                                                    "FI": "2 viikon - 1 kk ajan ollut pahenevaa oksentelua, viimeisen vrk aikana oksentanut 1-2 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "1-2 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "11_2",
+                                                "printText": {
+                                                    "FI": "2 viikon - 1 kk ajan ollut pahenevaa oksentelua, viimeisen vrk aikana oksentanut 3-5 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "3-5 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "11_3",
+                                                "printText": {
+                                                    "FI": "2 viikon - 1 kk ajan ollut pahenevaa oksentelua, viimeisen vrk aikana oksentanut yli 5 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "yli 5 kertaa"
+                                                },
+                                                "question": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "10_2",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "12",
+                                        "questionText": {
+                                            "FI": "Kuinka monta kertaa viimeisen vuorokauden sis�ll� olet oksentanut?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "12_1",
+                                                "printText": {
+                                                    "FI": "2 viikon - 1 kk ajan ollut oksentelua, viimeisen vrk aikana oksentanut 1-2 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "1-2 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "12_2",
+                                                "printText": {
+                                                    "FI": "2 viikon - 1 kk ajan ollut oksentelua, viimeisen vrk aikana oksentanut 3-5 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "3-5 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "12_3",
+                                                "printText": {
+                                                    "FI": "2 viikon - 1 kk ajan ollut oksentelua, viimeisen vrk aikana oksentanut yli 5 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "yli 5 kertaa"
+                                                },
+                                                "question": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "1_6",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Minulla on ollut oksentelua yli kuukauden ajan."
+                },
+                "question": [
+                    {
+                        "questionId": "13",
+                        "questionText": {
+                            "FI": "Onko viime p�ivin� oksentelu pahentunut?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "13_1",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "14",
+                                        "questionText": {
+                                            "FI": "Kuinka monta kertaa viimeisen vuorokauden sis�ll� olet oksentanut?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "14_1",
+                                                "printText": {
+                                                    "FI": "Yli 1 kk ajan ollut pahenevaa oksentelua, viimeisen vrk aikana oksentanut 1-2 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "1-2 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "14_2",
+                                                "printText": {
+                                                    "FI": "Yli 1 kk ajan ollut pahenevaa oksentelua, viimeisen vrk aikana oksentanut 3-5 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "3-5 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "14_3",
+                                                "printText": {
+                                                    "FI": "Yli 1 kk ajan ollut pahenevaa oksentelua, viimeisen vrk aikana oksentanut yli 5 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "yli 5 kertaa"
+                                                },
+                                                "question": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "13_2",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "15",
+                                        "questionText": {
+                                            "FI": "Kuinka monta kertaa viimeisen vuorokauden sis�ll� olet oksentanut?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "15_1",
+                                                "printText": {
+                                                    "FI": "Yli 1 kk ajan ollut oksentelua, viimeisen vrk aikana oksentanut 1-2 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "1-2 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "15_2",
+                                                "printText": {
+                                                    "FI": "Yli 1 kk ajan ollut oksentelua, viimeisen vrk aikana oksentanut 3-5 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "3-5 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "15_3",
+                                                "printText": {
+                                                    "FI": "Yli 1 kk ajan ollut oksentelua, viimeisen vrk aikana oksentanut yli 5 kertaa."
+                                                },
+                                                "answerText": {
+                                                    "FI": "yli 5 kertaa"
+                                                },
+                                                "question": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionId": "16",
+        "questionText": {
+            "FI": "Onko tullut verta oksennuksen mukana?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "16_1",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Kyll�"
+                },
+                "question": [
+                    {
+                        "questionId": "17",
+                        "questionText": {
+                            "FI": "Milloin verta on tullut ensimm�isen kerran oksennuksen mukana?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "17_1",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "T�n��n"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "18",
+                                        "questionText": {
+                                            "FI": "Kuinka monta kertaa verta on tullut oksennuksen mukana?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "18_1",
+                                                "printText": {
+                                                    "FI": "T�n��n on kerran tullut oksennuksen seassa verta."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Kerran"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "18_2",
+                                                "printText": {
+                                                    "FI": "T�n��n on 2-3 kertaa tullut oksennuksen seassa verta."
+                                                },
+                                                "answerText": {
+                                                    "FI": "2-3 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "18_3",
+                                                "printText": {
+                                                    "FI": "T�n��n on yli 3 kertaa tullut oksennuksen seassa  verta."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Yli 3 kertaa"
+                                                },
+                                                "question": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "17_2",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "1-3 vrk:tta sitten"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "19",
+                                        "questionText": {
+                                            "FI": "Kuinka monta kertaa verta on tullut oksennuksen mukana?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "19_1",
+                                                "printText": {
+                                                    "FI": "1-3 vrk sitten on ollut kertaalleen oksennuksen seassa verta."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Kerran"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "19_2",
+                                                "printText": {
+                                                    "FI": "1-3 vrk aikana on ollut 2-4 kertaa oksennuksen seassa verta."
+                                                },
+                                                "answerText": {
+                                                    "FI": "2-4 kertaa"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "19_3",
+                                                "printText": {
+                                                    "FI": "1-3 vrk aikana on ollut yli 5 kertaa oksennuksen seassa verta."
+                                                },
+                                                "answerText": {
+                                                    "FI": "yli 5 kertaa"
+                                                },
+                                                "question": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "17_3",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "4-6 vrk:tta sitten"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "20",
+                                        "questionText": {
+                                            "FI": "Kuinka monta kertaa verta on tullut oksennuksen mukana?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "20_1",
+                                                "printText": {
+                                                    "FI": "4-6 vrk sitten on kertaalleen oksennuksen seassa on ollut verta."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Kerran"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "20_2",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "2-4 kertaa"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "21",
+                                                        "questionText": {
+                                                            "FI": "Milloin viimeksi on verta tullut oksennuksen seassa?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "21_1",
+                                                                "printText": {
+                                                                    "FI": "4-6 vrk aikana on ollut 2-4 kertaa oksennuksen seassa verta, viimeksi t�n��n."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "T�n��n"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "21_2",
+                                                                "printText": {
+                                                                    "FI": "4-6 vrk aikana on ollut 2-4 kertaa oksennuksen seassa verta, viimeksi 1-2 vrk:tta sitten."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "1-2 vrk:tta sitten"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "21_3",
+                                                                "printText": {
+                                                                    "FI": "4-6 vrk aikana on ollut 2-4 kertaa oksennuksen seassa verta, viimeksi yli 2 vrk:tta sitten."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Yli 2 vrk:tta sitten"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "answerId": "20_3",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "yli 5 kertaa"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "22",
+                                                        "questionText": {
+                                                            "FI": "Milloin viimeksi on verta tullut oksennuksen seassa?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "22_1",
+                                                                "printText": {
+                                                                    "FI": "4-6 vrk aikana on tullut yli 5 kertaa oksennuksen seassa verta, viimeksi t�n��n."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "T�n��n"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "22_2",
+                                                                "printText": {
+                                                                    "FI": "4-6 vrk aikana on ollut yli 5 kertaa oksennuksen seassa verta, viimeksi 1-2 vrk:tta sitten."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "1-2 vrk:tta sitten"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "22_3",
+                                                                "printText": {
+                                                                    "FI": "4-6 vrk aikana on ollut yli 5ckertaa oksennuksen seassa verta, viimeksi yli 2 vrk:tta sitten."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Yli 2 vrk:tta sitten"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "17_4",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "1-2 viikkoa sitten"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "23",
+                                        "questionText": {
+                                            "FI": "Kuinka monta kertaa verta on tullut oksennuksen mukana?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "23_1",
+                                                "printText": {
+                                                    "FI": "1-2 vko sitten on kertaalleen oksennuksen seassa on ollut verta."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Kerran"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "23_2",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "2-4 kertaa"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "24",
+                                                        "questionText": {
+                                                            "FI": "Milloin viimeksi on verta tullut oksennuksen seassa?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "24_1",
+                                                                "printText": {
+                                                                    "FI": "1-2 viikon aikana on ollut 2-4 kertaa oksennuksen seassa verta, viimeksi t�n��n."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "T�n��n"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "24_2",
+                                                                "printText": {
+                                                                    "FI": "1-2 viikon aikana on ollut 2-4 kertaa oksennuksen seassa verta, viimeksi 1-3 vrk:tta sitten."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "1-3 vrk:tta sitten"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "24_3",
+                                                                "printText": {
+                                                                    "FI": "1-2 viikon aikana on ollut 2-4 kertaa oksennuksen seassa verta, viimeksi 4-6 vrk:tta sitten."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "4-6 vrk:tta sitten"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "24_4",
+                                                                "printText": {
+                                                                    "FI": "1-2 viikon aikana on ollut 2-4 kertaa oksennuksen seassa verta, viimeksi yli viikko sitten."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Yli viikko sitten"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "answerId": "23_3",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "yli 5 kertaa"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "25",
+                                                        "questionText": {
+                                                            "FI": "Milloin viimeksi on verta tullut oksennuksen seassa?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "25_1",
+                                                                "printText": {
+                                                                    "FI": "1-2 viikon aikana on ollut yli 5 kertaa oksennuksen seassa verta, viimeksi t�n��n."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "T�n��n"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "25_2",
+                                                                "printText": {
+                                                                    "FI": "1-2 viikon aikana on ollut yli 5 kertaa oksennuksen seassa verta, viimeksi 1-3 vrk:tta sitten."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "1-3 vrk:tta sitten"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "25_3",
+                                                                "printText": {
+                                                                    "FI": "1-2 viikon aikana on ollut yli 5 kertaa oksennuksen seassa verta, viimeksi 4-6 vrk:tta sitten."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "4-6 vrk:tta sitten"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "25_4",
+                                                                "printText": {
+                                                                    "FI": "1-2 viikon aikana on ollut yli 5 kertaa oksennuksen seassa verta, viimeksi yli viikko sitten."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Yli viikko sitten"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "17_5",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Yli 2 viikkoa sitten"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "26",
+                                        "questionText": {
+                                            "FI": "Kuinka monta kertaa verta on tullut oksennuksen mukana?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "26_1",
+                                                "printText": {
+                                                    "FI": "Yli 2 vko sitten on kertaalleen oksennuksen seassa on ollut verta."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Kerran"
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "26_2",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "2-4 kertaa"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "27",
+                                                        "questionText": {
+                                                            "FI": "Milloin viimeksi on verta tullut oksennuksen seassa?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "27_1",
+                                                                "printText": {
+                                                                    "FI": "Yli 2 viikon aikana on ollut 2-4 kertaa oksennuksen seassa verta, viimeksi t�n��n."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "T�n��n"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "27_2",
+                                                                "printText": {
+                                                                    "FI": "Yli 2 viikon aikana on ollut 2-4 kertaa oksennuksen seassa verta, viimeksi 1-3 vrk:tta sitten."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "1-3 vrk:tta sitten"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "27_3",
+                                                                "printText": {
+                                                                    "FI": "Yli 2 viikon aikana on ollut 2-4 kertaa oksennuksen seassa verta, viimeksi 4-6 vrk:tta sitten."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "4-6 vrk:tta sitten"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "27_4",
+                                                                "printText": {
+                                                                    "FI": "Yli 2 viikon aikana on ollut 2-4 kertaa oksennuksen seassa verta, viimeksi yli viikko sitten."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Yli viikko sitten"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "answerId": "26_3",
+                                                "printText": {
+                                                    "FI": ""
+                                                },
+                                                "answerText": {
+                                                    "FI": "yli 5 kertaa"
+                                                },
+                                                "question": [
+                                                    {
+                                                        "questionId": "28",
+                                                        "questionText": {
+                                                            "FI": "Milloin viimeksi on verta tullut oksennuksen seassa?"
+                                                        },
+                                                        "category": {
+                                                            "categoryId": 1234,
+                                                            "subcategoryId": 1,
+                                                            "backgroundCategory": ""
+                                                        },
+                                                        "type": "valinta",
+                                                        "answers": [
+                                                            {
+                                                                "answerId": "28_1",
+                                                                "printText": {
+                                                                    "FI": "Yli 2 viikon aikana on ollut yli 5 kertaa oksennuksen seassa verta, viimeksi t�n��n."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "T�n��n"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "28_2",
+                                                                "printText": {
+                                                                    "FI": "Yli 2 viikon aikana on ollut yli 5 kertaa oksennuksen seassa verta, viimeksi 1-3 vrk:tta sitten."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "1-3 vrk:tta sitten"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "28_3",
+                                                                "printText": {
+                                                                    "FI": "Yli 2 viikon aikana on ollut yli 5 kertaa oksennuksen seassa verta, viimeksi 4-6 vrk:tta sitten."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "4-6 vrk:tta sitten"
+                                                                },
+                                                                "question": []
+                                                            },
+                                                            {
+                                                                "answerId": "28_4",
+                                                                "printText": {
+                                                                    "FI": "Yli 2 viikon aikana on ollut yli 5 kertaa oksennuksen seassa verta, viimeksi yli viikko sitten."
+                                                                },
+                                                                "answerText": {
+                                                                    "FI": "Yli viikko sitten"
+                                                                },
+                                                                "question": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "16_2",
+                "printText": {
+                    "FI": "Ei verta oksennuksen seassa."
+                },
+                "answerText": {
+                    "FI": "Ei"
+                },
+                "question": []
+            },
+            {
+                "answerId": "16_3",
+                "printText": {
+                    "FI": "Ei osaa sanoa onko tullut verta oksennuksen mukana."
+                },
+                "answerText": {
+                    "FI": "En osaa sanoa"
+                },
+                "question": []
+            }
+        ]
+    }
+]

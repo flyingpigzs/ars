@@ -1,0 +1,225 @@
+[
+    {
+        "questionId": "1",
+        "questionText": {
+            "FI": "Kuinka kauan sinulla on ollut pahoinvointia ?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "1_1",
+                "printText": {
+                    "FI": "T�st� p�iv�st� alkaen"
+                },
+                "answerText": {
+                    "FI": "Pahoinvointi on alkanut minulla t�n��n."
+                },
+                "question": []
+            },
+            {
+                "answerId": "1_2",
+                "printText": {
+                    "FI": "1-3 vrk ajan ollut"
+                },
+                "answerText": {
+                    "FI": "Minulla on ollut pahoinvointia 1-3 vuorokauden ajan."
+                },
+                "question": []
+            },
+            {
+                "answerId": "1_3",
+                "printText": {
+                    "FI": "4-6 vrk ajan ollut"
+                },
+                "answerText": {
+                    "FI": "Minulla on ollut pahoinvointia 4-6 vuorokauden ajan."
+                },
+                "question": []
+            },
+            {
+                "answerId": "1_4",
+                "printText": {
+                    "FI": "1-2 viikon ajan ollut"
+                },
+                "answerText": {
+                    "FI": "Minulla on ollut pahoinvointia 1-2 viikon ajan."
+                },
+                "question": []
+            },
+            {
+                "answerId": "1_5",
+                "printText": {
+                    "FI": "2 viikon - 1kk ajan ollut"
+                },
+                "answerText": {
+                    "FI": "Minulla on ollut pahoinvointia 2 viikon - 1kk ajan."
+                },
+                "question": []
+            },
+            {
+                "answerId": "1_6",
+                "printText": {
+                    "FI": "Yli 1 kk ajan ollut"
+                },
+                "answerText": {
+                    "FI": "Minulla on ollut pahoinvointia yli 1 kk ajan."
+                },
+                "question": []
+            }
+        ]
+    },
+    {
+        "questionId": "2",
+        "questionText": {
+            "FI": "Onko pahoinvointi ollut jatkuvaa vai ajoittaista vai aaltomaista?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "2_1",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Minulla on koko ajan jatkuvaa pahoinvointia."
+                },
+                "question": [
+                    {
+                        "questionId": "3",
+                        "questionText": {
+                            "FI": "Paheneeko pahoinvointisi koko ajan?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "3_1",
+                                "printText": {
+                                    "FI": "jatkuvaa, pahenevaa pahoinvointia."
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "3_2",
+                                "printText": {
+                                    "FI": "jatkuvaa pahoinvointia, joka ei ole pahentunut."
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "2_2",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Minulla pahoinvointi vaihtelee (v�lill� helpottaa, mutta ei poistu kokonaan)."
+                },
+                "question": [
+                    {
+                        "questionId": "4",
+                        "questionText": {
+                            "FI": "Paheneeko pahoinvointisi koko ajan?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "4_1",
+                                "printText": {
+                                    "FI": "aaltoilevaa, pahenevaa pahoinvointia."
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "4_2",
+                                "printText": {
+                                    "FI": "aaltoilevaa pahoinvointia, ei ole pahentunut."
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "2_3",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Minulla on pahoinvointia ajoittain (poistuu kokonaan v�lill�)."
+                },
+                "question": [
+                    {
+                        "questionId": "5",
+                        "questionText": {
+                            "FI": "Paheneeko pahoinvointisi koko ajan?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "5_1",
+                                "printText": {
+                                    "FI": "ajoittaista, pahenevaa pahoinvointia."
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "5_2",
+                                "printText": {
+                                    "FI": "ajoittaista pahoinvointia, ei ole pahentunut."
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

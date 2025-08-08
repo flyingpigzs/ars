@@ -1,0 +1,833 @@
+[
+    {
+        "questionId": "1",
+        "questionText": {
+            "FI": "Onko sinulla ripulia?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "1_1",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Kyll�"
+                },
+                "question": [
+                    {
+                        "questionId": "2",
+                        "questionText": {
+                            "FI": "Kuinka kauan sinulla on ollut ripulia?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "2_1",
+                                "printText": {
+                                    "FI": "Ripuli on alkanut t�n��n,"
+                                },
+                                "answerText": {
+                                    "FI": "Ripuli on alkanut t�n��n."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "2_2",
+                                "printText": {
+                                    "FI": "Ripulia ollut 1-3 vrk ajan,"
+                                },
+                                "answerText": {
+                                    "FI": "Ripuli on kest�nyt 1-3 vuorokauden ajan."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "2_3",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Ripuli on kest�nyt 4-6 vuorokauden ajan."
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "3",
+                                        "questionText": {
+                                            "FI": "Onko ripuli viimeisen 2 vuorokauden aikana helpottanut, pysynyt samanlaisena vai pahentunut?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "3_1",
+                                                "printText": {
+                                                    "FI": "4-6 vrk ajan ollut ripulia, joka viime p�ivin� helpottunut."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ripulioireet ovat helpottuneet viimeisen 2 vrk aikana."
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "3_2",
+                                                "printText": {
+                                                    "FI": "4-6 vrk ajan ollut ripulia."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ripulioireet ovat pysyneet samanlaisina viimeisen 2 vrk aikana."
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "3_3",
+                                                "printText": {
+                                                    "FI": "4-6 vrk ajan ollut ripulia, joka viime p�ivin� pahentunut."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ripulioireet ovat pahentuneet viimeisen 2 vrk aikana."
+                                                },
+                                                "question": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "2_4",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Ripuli on kest�nyt 1-2 viikon ajan."
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "4",
+                                        "questionText": {
+                                            "FI": "Onko ripuli viimeisen 2 vuorokauden aikana helpottanut, pysynyt samanlaisena vai pahentunut?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "4_1",
+                                                "printText": {
+                                                    "FI": "1-2 viikon ajan ollut ripulia, joka viime p�ivin� helpottunut."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ripulioireet ovat helpottuneet viimeisen 2 vrk aikana."
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "4_2",
+                                                "printText": {
+                                                    "FI": "1-2 viikon ajan ollut ripulia."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ripulioireet ovat pysyneet samanlaisina viimeisen 2 vrk aikana."
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "4_3",
+                                                "printText": {
+                                                    "FI": "1-2 viikon ajan ollut ripulia, joka viime p�ivin� pahentunut."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ripulioireet ovat pahentuneet viimeisen 2 vrk aikana."
+                                                },
+                                                "question": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "2_5",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Ripuli on kest�nyt 2 viikon - 1 kk ajan."
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "5",
+                                        "questionText": {
+                                            "FI": "Onko ripuli viimeisen 2 vuorokauden aikana helpottanut, pysynyt samanlaisena vai pahentunut?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "5_1",
+                                                "printText": {
+                                                    "FI": "2 viikon - 1 kk ajan ollut ripulia, joka viime p�ivin� helpottunut."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ripulioireet ovat helpottuneet viimeisten p�ivien aikana."
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "5_2",
+                                                "printText": {
+                                                    "FI": "2 viikon - 1 kk ajan ollut ripulia."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ripulioireet ovat pysyneet samanlaisina viimeisten p�ivien aikana."
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "5_3",
+                                                "printText": {
+                                                    "FI": "2 viikon - 1 kk ajan ollut ripulia, joka viime p�ivin� pahentunut."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ripulioireet ovat pahentuneet viimeisten p�ivien aikana."
+                                                },
+                                                "question": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "2_6",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Ripuli on kest�nyt yli 1 kk ajan."
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "6",
+                                        "questionText": {
+                                            "FI": "Onko ripuli viimeisen 2 vuorokauden aikana helpottanut, pysynyt samanlaisena vai pahentunut?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "6_1",
+                                                "printText": {
+                                                    "FI": "Yli 1 kk ajan ollut ripulia, joka viime p�ivin� helpottunut."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ripulioireet ovat helpottuneet viimeisten p�ivien aikana."
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "6_2",
+                                                "printText": {
+                                                    "FI": "Yli 1 kk ajan ollut ripulia."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ripulioireet ovat pysyneet samanlaisina viimeisten p�ivien aikana."
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "6_3",
+                                                "printText": {
+                                                    "FI": "Yli 1 kk ajan ollut ripulia, joka viime p�ivin� pahentunut."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Ripulioireet ovat pahentuneet viimeisten p�ivien aikana."
+                                                },
+                                                "question": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "questionId": "7",
+                        "questionText": {
+                            "FI": "Kuinka monta kertaa olet ulostanut viimeisen vuorokauden aikana?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "7_1",
+                                "printText": {
+                                    "FI": "Viimeisen vrk:n aikana ulostanut 1-3 kertaa, "
+                                },
+                                "answerText": {
+                                    "FI": "Olen ulostanut 1-3 kertaa vuorokaudessa."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "7_2",
+                                "printText": {
+                                    "FI": "Viimeisen vrk:n aikana ulostanut 4-8 kertaa,"
+                                },
+                                "answerText": {
+                                    "FI": "Olen ulostanut 4-8 kertaa vuorokaudessa."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "7_3",
+                                "printText": {
+                                    "FI": "Viimeisen vrk:n aikana ulostanut yli 8 kertaa,"
+                                },
+                                "answerText": {
+                                    "FI": "Olen ulostanut yli 8 kertaa vuorokaudessa."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "7_4",
+                                "printText": {
+                                    "FI": "Ei osaa sanoa kuinka monta kertaa on ulostanut vrk:n aikana,"
+                                },
+                                "answerText": {
+                                    "FI": "En osaa sanoa."
+                                },
+                                "question": []
+                            }
+                        ]
+                    },
+                    {
+                        "questionId": "8",
+                        "questionText": {
+                            "FI": "Valitse seuraavista sopivin vaihtoehto."
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "8_1",
+                                "printText": {
+                                    "FI": " vesiripulia."
+                                },
+                                "answerText": {
+                                    "FI": "Uloste on t�ysin vesiripulia."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "8_2",
+                                "printText": {
+                                    "FI": " vaihtelua vesiripulin ja l�ys�n v�lill�."
+                                },
+                                "answerText": {
+                                    "FI": "Uloste on koostumukseltaan v�lill� vesiripulia, v�lill� l�ys�� ulostetta."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "8_3",
+                                "printText": {
+                                    "FI": " p��s��nt�isesti l�ys�� ulostetta."
+                                },
+                                "answerText": {
+                                    "FI": "Uloste on p��s��nt�isesti l�ys�� ulostetta."
+                                },
+                                "question": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "1_2",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Ei"
+                },
+                "question": [
+                    {
+                        "questionId": "9",
+                        "questionText": {
+                            "FI": "Onko sinulla nyt ummetusta?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "9_1",
+                                "printText": {
+                                    "FI": ""
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": [
+                                    {
+                                        "questionId": "10",
+                                        "questionText": {
+                                            "FI": "Kuinka kauan sinulla on ollut ummetusta?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "10_1",
+                                                "printText": {
+                                                    "FI": "Ummetusta ollut alle viikon ajan."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Minulla on ollut ummetusta alle viikon ajan."
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "10_2",
+                                                "printText": {
+                                                    "FI": "Ummetusta ollut 1-4 viikon ajan."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Minulla on ollut ummetusta 1-4 viikon ajan."
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "10_3",
+                                                "printText": {
+                                                    "FI": "Ummetusta ollut yli kuukauden ajan."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Minulla on ollut ummetusta yli kuukauden ajan."
+                                                },
+                                                "question": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "questionId": "11",
+                                        "questionText": {
+                                            "FI": "Milloin viimeksi sin� olet ulostanut?"
+                                        },
+                                        "category": {
+                                            "categoryId": 1234,
+                                            "subcategoryId": 1,
+                                            "backgroundCategory": ""
+                                        },
+                                        "type": "valinta",
+                                        "answers": [
+                                            {
+                                                "answerId": "11_1",
+                                                "printText": {
+                                                    "FI": "On ulostanut viimeksi 1-3 vrk sitten."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Olen ulostanut viimeksi 1-3 vuorokautta sitten."
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "11_2",
+                                                "printText": {
+                                                    "FI": "On ulostanut viimeksi 4-6 vrk sitten."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Olen ulostanut viimeksi 4-6 vuorokautta sitten."
+                                                },
+                                                "question": []
+                                            },
+                                            {
+                                                "answerId": "11_3",
+                                                "printText": {
+                                                    "FI": "On ulostanut viimeksi yli viikko sitten."
+                                                },
+                                                "answerText": {
+                                                    "FI": "Olen ulostanut viimeksi yli viikko sitten."
+                                                },
+                                                "question": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "answerId": "9_2",
+                                "printText": {
+                                    "FI": "Ei ripulia, eik� ummetusta."
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionId": "12",
+        "questionText": {
+            "FI": "Onko sinulla ollut tummia ulosteita?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "12_1",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Kyll�"
+                },
+                "question": [
+                    {
+                        "questionId": "13",
+                        "questionText": {
+                            "FI": "Kuinka kauan sinulla on ollut tummia ulosteita?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "13_1",
+                                "printText": {
+                                    "FI": "T�n��n tullut tummia ulosteita."
+                                },
+                                "answerText": {
+                                    "FI": "Minulla on alkanut tummat ulosteet t�n��n."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "13_2",
+                                "printText": {
+                                    "FI": "1-3 vrk ajan on ollut tummia ulosteita."
+                                },
+                                "answerText": {
+                                    "FI": "Minulla on ollut tummia ulosteita 1-3 vrk ajan."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "13_3",
+                                "printText": {
+                                    "FI": "4-6 vrk ajan on ollut tummia ulosteita."
+                                },
+                                "answerText": {
+                                    "FI": "Minulla on ollut tummia ulosteita 4-6 vrk ajan."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "13_4",
+                                "printText": {
+                                    "FI": "1-2 vko ajan on ollut tummia ulosteita."
+                                },
+                                "answerText": {
+                                    "FI": "Minulla on ollut tummia ulosteita 1-2 viikon ajan."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "13_5",
+                                "printText": {
+                                    "FI": "2vko -1 kk ajan on ollut tummia ulosteita."
+                                },
+                                "answerText": {
+                                    "FI": "Minulla on ollut tummia ulosteita 2 viikon -1 kk ajan."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "13_6",
+                                "printText": {
+                                    "FI": "Yli kk ajan on ollut tummia ulosteita."
+                                },
+                                "answerText": {
+                                    "FI": "Minulla on ollut tummia ulosteita yli 1 kk ajan."
+                                },
+                                "question": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "12_2",
+                "printText": {
+                    "FI": "Ei tummia ulosteita."
+                },
+                "answerText": {
+                    "FI": "Ei"
+                },
+                "question": []
+            }
+        ]
+    },
+    {
+        "questionId": "14",
+        "questionText": {
+            "FI": "Onko sinulla nyt kirkasta verta ulostaessa tai pyyhkiess�?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "14_1",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Kyll�"
+                },
+                "question": [
+                    {
+                        "questionId": "15",
+                        "questionText": {
+                            "FI": "Kuinka kauan sinulla on ollut kirkasta verta ulostaessa tai pyyhkiess�?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "15_1",
+                                "printText": {
+                                    "FI": "T�n��n on tullut kirkasta verta,"
+                                },
+                                "answerText": {
+                                    "FI": "Kirkasta verta on ollut t�st� p�iv�st� alkaen."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "15_2",
+                                "printText": {
+                                    "FI": "1-3 vrk ajan on tullut kirkasta verta,"
+                                },
+                                "answerText": {
+                                    "FI": "Kirkasta verta on ollut 1-3 vrk ajan."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "15_3",
+                                "printText": {
+                                    "FI": "4-6 vrk ajan on tullut kirkasta verta,"
+                                },
+                                "answerText": {
+                                    "FI": "Kirkasta verta on ollut 4-6 vrk ajan."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "15_4",
+                                "printText": {
+                                    "FI": "1-2 vko ajan on tullut kirkasta verta,"
+                                },
+                                "answerText": {
+                                    "FI": "Kirkasta verta on ollut 1-2 viikon ajan."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "15_5",
+                                "printText": {
+                                    "FI": "2vko -1 kk ajan on tullut kirkasta verta,"
+                                },
+                                "answerText": {
+                                    "FI": "Kirkasta verta on ollut 2 viikon -1 kk ajan."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "15_6",
+                                "printText": {
+                                    "FI": "Yli kk ajan on tullut kirkasta verta,"
+                                },
+                                "answerText": {
+                                    "FI": "Kirkasta verta on ollut yli 1 kk ajan."
+                                },
+                                "question": []
+                            }
+                        ]
+                    },
+                    {
+                        "questionId": "16",
+                        "questionText": {
+                            "FI": "Onko verta tullut vain pyyhkiess� vai my�s ulostaessa?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "16_1",
+                                "printText": {
+                                    "FI": " vessapaperiin pyyhkiess�."
+                                },
+                                "answerText": {
+                                    "FI": "Minulla on ollut kirkasta verta ainoastaan pyyhkiess� ulostamisen j�lkeen."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "16_2",
+                                "printText": {
+                                    "FI": " vessapaperiin pyyhkiess� ja ulosteen seassa."
+                                },
+                                "answerText": {
+                                    "FI": "Minulla on ollut kirkasta verta ulostaessa ja pyyhkiess�."
+                                },
+                                "question": []
+                            }
+                        ]
+                    },
+                    {
+                        "questionId": "17",
+                        "questionText": {
+                            "FI": "Onko sinulla joskus todettu per�pukamia?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "17_1",
+                                "printText": {
+                                    "FI": "Potilaalla on todettu aikaisemmin per�pukamia."
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "17_2",
+                                "printText": {
+                                    "FI": "Potilaalla ei ole todettu aikaisemmin per�pukamia."
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "14_2",
+                "printText": {
+                    "FI": "Ei kirkasta verta ulostamisen yhteydess�."
+                },
+                "answerText": {
+                    "FI": "Ei"
+                },
+                "question": []
+            }
+        ]
+    },
+    {
+        "questionId": "18",
+        "questionText": {
+            "FI": "Onko sinulla nyt ollut my�s kipua ulostaessa?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "18_1",
+                "printText": {
+                    "FI": "Ollut my�s kipua ulostamisen yhteydess�."
+                },
+                "answerText": {
+                    "FI": "Kyll�"
+                },
+                "question": []
+            },
+            {
+                "answerId": "18_2",
+                "printText": {
+                    "FI": "Ei kipua ulostaessa."
+                },
+                "answerText": {
+                    "FI": "Ei"
+                },
+                "question": []
+            }
+        ]
+    }
+]

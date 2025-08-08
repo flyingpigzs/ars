@@ -1,0 +1,5 @@
+pip install -r requirements.txt  
+echo 'export GOOGLE_API_KEY="AIz..."' >> ~/.zshrc
+source ~/.zshrc
+python app.py
+ngrok http 8080

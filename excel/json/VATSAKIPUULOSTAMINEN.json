@@ -1,0 +1,548 @@
+[
+    {
+        "questionId": "1",
+        "questionText": {
+            "FI": "Onko sinulla kipua vatsan alueella?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "1_1",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Kyll�"
+                },
+                "question": []
+            },
+            {
+                "answerId": "1_2",
+                "printText": {
+                    "FI": "Ei vatsakipua."
+                },
+                "answerText": {
+                    "FI": "Ei"
+                },
+                "question": []
+            },
+            {
+                "answerId": "1_3",
+                "printText": {
+                    "FI": "Ei osaa sanoa onko vatsakipua."
+                },
+                "answerText": {
+                    "FI": "En osaa sanoa"
+                },
+                "question": []
+            }
+        ]
+    },
+    {
+        "questionId": "3",
+        "questionText": {
+            "FI": "Onko sinulla viime aikoina ollut normaalista poikkeavia virtsaamisoireita?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "3_1",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Kyll�"
+                },
+                "question": []
+            },
+            {
+                "answerId": "3_2",
+                "printText": {
+                    "FI": "Virtsaaminen normaalia."
+                },
+                "answerText": {
+                    "FI": "Ei"
+                },
+                "question": []
+            },
+            {
+                "answerId": "3_3",
+                "printText": {
+                    "FI": "Ei osaa sanoa onko poikkeavia virtsaamisoireita."
+                },
+                "answerText": {
+                    "FI": "En osaa sanoa"
+                },
+                "question": []
+            }
+        ]
+    },
+    {
+        "questionId": "5",
+        "questionText": {
+            "FI": "Onko sinun ulostaminen ollut normaalista poikkeavaa (ripulia, ummetusta, tummia ulosteita, kirkasta verta) viime aikoina?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "5_1",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Kyll�"
+                },
+                "question": []
+            },
+            {
+                "answerId": "5_2",
+                "printText": {
+                    "FI": "Ulostaminen normaalia/entisenlaista."
+                },
+                "answerText": {
+                    "FI": "Ei"
+                },
+                "question": []
+            },
+            {
+                "answerId": "5_3",
+                "printText": {
+                    "FI": "Ei osaa sanoa onko ulostaminen normaalista poikkeavaa."
+                },
+                "answerText": {
+                    "FI": "En osaa sanoa"
+                },
+                "question": []
+            }
+        ]
+    },
+    {
+        "questionId": "7",
+        "questionText": {
+            "FI": "Onko sinulla viime aikoina ollut pahoinvointia?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "7_1",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Kyll�"
+                },
+                "question": []
+            },
+            {
+                "answerId": "7_2",
+                "printText": {
+                    "FI": "Ei pahoinvointia."
+                },
+                "answerText": {
+                    "FI": "Ei"
+                },
+                "question": []
+            }
+        ]
+    },
+    {
+        "questionId": "9",
+        "questionText": {
+            "FI": "Oletko viime aikoina oksentanut?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "9_1",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Kyll�"
+                },
+                "question": []
+            },
+            {
+                "answerId": "9_2",
+                "printText": {
+                    "FI": "Ei oksentelua."
+                },
+                "answerText": {
+                    "FI": "Ei"
+                },
+                "question": []
+            }
+        ]
+    },
+    {
+        "questionId": "11",
+        "questionText": {
+            "FI": "Onko sinulla viime aikoina ollut n�r�styst�?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "11_1",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Kyll�"
+                },
+                "question": [
+                    {
+                        "questionId": "12",
+                        "questionText": {
+                            "FI": "Valitse seuraavista parhaiten sopiva vaihtoehto"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "12_1",
+                                "printText": {
+                                    "FI": "N�r�styst� p�ivitt�in."
+                                },
+                                "answerText": {
+                                    "FI": "N�r�styst� on esiintynyt p�ivitt�in."
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "12_2",
+                                "printText": {
+                                    "FI": "N�r�styst� ajoittain."
+                                },
+                                "answerText": {
+                                    "FI": "N�r�styst� on esiintynyt ajoittain."
+                                },
+                                "question": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "11_2",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Ei"
+                },
+                "question": []
+            },
+            {
+                "answerId": "11_3",
+                "printText": {
+                    "FI": "Ei osaa sanoa onko ollut n�r�styst�."
+                },
+                "answerText": {
+                    "FI": "En osaa sanoa"
+                },
+                "question": []
+            }
+        ]
+    },
+    {
+        "questionId": "13",
+        "questionText": {
+            "FI": "Onko sinulla viime aikoina esiintynyt poikkeavia gynekologisia oireita (vuotoa, kipua, kirvely� yms)"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "13_1",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Kyll�"
+                },
+                "question": []
+            },
+            {
+                "answerId": "13_2",
+                "printText": {
+                    "FI": "Ei gynekologisia oireita."
+                },
+                "answerText": {
+                    "FI": "Ei"
+                },
+                "question": []
+            }
+        ]
+    },
+    {
+        "questionId": "15",
+        "questionText": {
+            "FI": "Onko sinulla kuumetta yli 37,5 astetta?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "15_1",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Kyll�"
+                },
+                "question": []
+            },
+            {
+                "answerId": "15_2",
+                "printText": {
+                    "FI": "L�mp� ollut alle 37.5."
+                },
+                "answerText": {
+                    "FI": "Ei"
+                },
+                "question": []
+            },
+            {
+                "answerId": "15_3",
+                "printText": {
+                    "FI": "Kuumeinen olo, ei ole mitannut."
+                },
+                "answerText": {
+                    "FI": "Minulla on kuumeinen olo, mutta en ole mitannut."
+                },
+                "question": []
+            },
+            {
+                "answerId": "15_4",
+                "printText": {
+                    "FI": "Ei osaa sanoa onko kuumetta, ei ole mitannut."
+                },
+                "answerText": {
+                    "FI": "En osaa sanoa onko minulla kuumetta, en ole mitannut."
+                },
+                "question": []
+            }
+        ]
+    },
+    {
+        "questionId": "17",
+        "questionText": {
+            "FI": "Onko sinulla rintakipua?"
+        },
+        "category": {
+            "categoryId": 1234,
+            "subcategoryId": 1,
+            "backgroundCategory": ""
+        },
+        "type": "valinta",
+        "answers": [
+            {
+                "answerId": "17_1",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Kyll�"
+                },
+                "question": [
+                    {
+                        "questionId": "18",
+                        "questionText": {
+                            "FI": "Onko sinulla hengenahdistusta?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "18_1",
+                                "printText": {
+                                    "FI": "Potilaalla rintakipua ja hengenahdistusta."
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "18_2",
+                                "printText": {
+                                    "FI": "Potilaalla rintakipua, ei hengenahdistusta."
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "18_3",
+                                "printText": {
+                                    "FI": "Potilaalla rintakipua, ei osaa sanoa onko hengenahdistusta."
+                                },
+                                "answerText": {
+                                    "FI": "En osaa sanoa"
+                                },
+                                "question": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "17_2",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "Ei"
+                },
+                "question": [
+                    {
+                        "questionId": "19",
+                        "questionText": {
+                            "FI": "Onko sinulla hengenahdistusta?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "19_1",
+                                "printText": {
+                                    "FI": "Potilaalla hengenahdistusta, ei rintakipua."
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "19_2",
+                                "printText": {
+                                    "FI": "Ei rintakipua, ei hengenahdistusta."
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "19_3",
+                                "printText": {
+                                    "FI": "Potilaalla ei ole rintakipua, mutta ei osaa sanoa onko hengenahdistusta."
+                                },
+                                "answerText": {
+                                    "FI": "En osaa sanoa"
+                                },
+                                "question": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "answerId": "17_3",
+                "printText": {
+                    "FI": ""
+                },
+                "answerText": {
+                    "FI": "En osaa sanoa"
+                },
+                "question": [
+                    {
+                        "questionId": "20",
+                        "questionText": {
+                            "FI": "Onko sinulla hengenahdistusta?"
+                        },
+                        "category": {
+                            "categoryId": 1234,
+                            "subcategoryId": 1,
+                            "backgroundCategory": ""
+                        },
+                        "type": "valinta",
+                        "answers": [
+                            {
+                                "answerId": "20_1",
+                                "printText": {
+                                    "FI": "Potilaalla on hengenahdistusta, ei osaa sanoa onko rintakipua."
+                                },
+                                "answerText": {
+                                    "FI": "Kyll�"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "20_2",
+                                "printText": {
+                                    "FI": "Potilaalla ei ole hengenahdistusta, mutta ei osaa sanoa onko rintakipua."
+                                },
+                                "answerText": {
+                                    "FI": "Ei"
+                                },
+                                "question": []
+                            },
+                            {
+                                "answerId": "20_3",
+                                "printText": {
+                                    "FI": "Potilas ei osaa sanoa onko rintakipua tai hengenahdistusta."
+                                },
+                                "answerText": {
+                                    "FI": "En osaa sanoa"
+                                },
+                                "question": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
