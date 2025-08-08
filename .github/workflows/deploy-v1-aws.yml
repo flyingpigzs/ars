@@ -50,7 +50,7 @@ jobs:
           echo "Launching EC2 instance in region ${{ github.event.inputs.region }}..."
 
           INSTANCE_ID=$(aws ec2 run-instances \
-            --associate-public-ip-address \
+            --subnet-id subnet-0116b910cf14c11b1 \
             --image-id "${{ github.event.inputs.ami_id }}" \
             --count 1 \
             --key-name dst \
