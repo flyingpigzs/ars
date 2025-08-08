@@ -12,7 +12,7 @@ on:
           - eu-north-1
           - eu-west-1
       instance_type:
-        description: 'EC2 Instance Type (Minimum requirement: 2xvCPU 4G RAM)'
+        description: 'EC2 Instance Type (Minimum Requirement: 2xvCPU 4G RAM)'
         required: true
         default: 't3.medium'
       ami_id:
@@ -56,7 +56,7 @@ jobs:
             --instance-type "${{ github.event.inputs.instance_type }}" \
             --user-data file://user-data.yml \
             --security-group-ids "${{ github.event.inputs.security_group_id }}" \
-            --tag-specifications ResourceType=instance,Tags=[{Key=Name,Value=ars}] \
+            --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=ars}]' \
             --query 'Instances[0].InstanceId' \
             --output text)
 
