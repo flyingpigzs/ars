@@ -17,6 +17,7 @@ users:
 runcmd:
   - echo "OPENAI_API_KEY=${OPENAI_API_KEY}" >> /etc/environment
   - cd /home/ars
+  - rm -rf .
   - git clone --branch release/v1.0.0 --depth 1 https://${GH_PAT}@github.com/neuvo-ai/ars.git .
   - echo "REACT_APP_GEMINI_API_KEY=${REACT_APP_GEMINI_API_KEY}" > .env
   - chown -R ars:ars /home/ars
