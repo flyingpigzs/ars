@@ -69,6 +69,11 @@ jobs:
             --query 'Reservations[0].Instances[0].PublicIpAddress' \
             --output text)
 
+          KEY_PAIR_NAME=$(aws ec2 describe-instances \
+            --instance-ids "$INSTANCE_ID" \
+            --query "Reservations[0].Instances[0].KeyName" \
+            --output text)
+
           echo "Public IP: $PUBLIC_IP"
 
           # Information showing on the summary
@@ -79,4 +84,5 @@ jobs:
             echo "- **Region:** \`${{ github.event.inputs.region }}\`"
             echo "- **Type:** \`${{ github.event.inputs.instance_type }}\`"
             echo "- **Public IP:** \`$PUBLIC_IP\`"
+            echo "- **Key Pair Name:** \`$KEY_PAIR_NAME\`"
           } >> "$GITHUB_STEP_SUMMARY"
