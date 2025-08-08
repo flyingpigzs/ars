@@ -19,7 +19,7 @@ jobs:
       - name: Checkout release v1.0.0
         uses: actions/checkout@v4
         with:
-          ref: refs/tags/release/v1.0.0
+          ref: release/v1.0.0
 
       - name: Echo region
         run: echo "Region is ${{ inputs.region }}"
