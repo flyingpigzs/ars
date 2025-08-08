@@ -10,7 +10,7 @@ groups:
 users:
   - default
   - name: ars
-    groups: ars
+    primary_group: ars
     shell: /bin/bash
     homedir: /home/ars
 
