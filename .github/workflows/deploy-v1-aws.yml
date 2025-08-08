@@ -11,6 +11,16 @@ on:
         options:
           - eu-north-1
           - eu-west-1
+      instance_type:
+        description: 'EC2 Instance Type (Minimum requirement: 2xvCPU 4G RAM)'
+        required: true
+        default: 't3.medium'
+      ami_id:
+        description: 'AMI ID'
+        required: true
+      security_group_id:
+        description: 'Security Group ID (sg-xxxxxxxxxxxxxx)'
+        required: true
 
 jobs:
   deploy:
@@ -19,7 +29,52 @@ jobs:
       - name: Checkout release v1.0.0
         uses: actions/checkout@v4
         with:
-          ref: release/v1.0.0
+          ref: main
 
-      - name: Echo region
-        run: echo "Region is ${{ inputs.region }}"
+      - name: Prepare cloud-init file with GitHub token
+        run: |
+          export GH_PAT=${{ secrets.GH_PAT }}
+          envsubst < .github/workflows/user-data/release-v1.yml > user-data.yml
+
+      - name: Configure AWS CLI
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ github.event.inputs.region }}
+
+      - name: Launch EC2 instance
+        run: |
+          echo "Launching EC2 instance in region ${{ github.event.inputs.region }}..."
+
+          INSTANCE_ID=$(aws ec2 run-instances \
+            --image-id "${{ github.event.inputs.ami_id }}" \
+            --count 1 \
+            --instance-type "${{ github.event.inputs.instance_type }}" \
+            --user-data file://user-data.yml \
+            --security-group-ids "${{ github.event.inputs.security_group_id }}" \
+            --query 'Instances[0].InstanceId' \
+            --output text)
+
+          echo "Instance launched: $INSTANCE_ID"
+
+          aws ec2 wait instance-running --instance-ids "$INSTANCE_ID"
+
+          PUBLIC_IP=$(aws ec2 describe-instances \
+            --instance-ids "$INSTANCE_ID" \
+            --query 'Reservations[0].Instances[0].PublicIpAddress' \
+            --output text)
+
+          echo "Public IP: $PUBLIC_IP"
+
+          echo "instance_id=$INSTANCE_ID" >> "$GITHUB_OUTPUT"
+          echo "public_ip=$PUBLIC_IP" >> "$GITHUB_OUTPUT"
+
+          {
+            echo "## EC2 Instance Launched"
+            echo ""
+            echo "- **Instance ID:** \`$INSTANCE_ID\`"
+            echo "- **Region:** \`${{ github.event.inputs.region }}\`"
+            echo "- **Type:** \`${{ github.event.inputs.instance_type }}\`"
+            echo "- **Public IP:** \`$PUBLIC_IP\`"
+          } >> "$GITHUB_STEP_SUMMARY"
