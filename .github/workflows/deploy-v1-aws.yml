@@ -34,7 +34,7 @@ jobs:
       - name: Prepare cloud-init file with GitHub token
         run: |
           export GH_PAT=${{ secrets.GH_PAT }}
-          envsubst < .github/workflows/user-data/release-v1.yml > user-data.yml
+          envsubst < devops/cloud-init/release-v1.yml > user-data.yml
 
       - name: Configure AWS CLI
         uses: aws-actions/configure-aws-credentials@v4.3.1
