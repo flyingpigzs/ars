@@ -72,5 +72,5 @@ runcmd:
   - REACT_APP_BACKEND_BASE_URL="${BACKEND_DOMAIN}/backend" npm run build
   - ln -s /srv/ars/google-realtime/build /var/www/ars-frontend
   # config nginx
-  - rm -f /etc/nginx/site-enabled/default
-  - systemctl restart nginx
+  - rm -f /etc/nginx/sites-enabled/default
+  - systemctl restart nginx.service
