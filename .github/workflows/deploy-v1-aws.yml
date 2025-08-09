@@ -40,7 +40,7 @@ jobs:
           export OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
           export REACT_APP_GEMINI_API_KEY=${{ secrets.REACT_APP_GEMINI_API_KEY }}
           export BACKEND_DOMAIN=${{ github.event.inputs.backend_domain }}
-          envsubst < devops/cloud-init/release-v1.yml > user-data.yml
+          envsubst '${GH_PAT} ${OPENAI_API_KEY} ${REACT_APP_GEMINI_API_KEY} ${BACKEND_DOMAIN}' < devops/cloud-init/release-v1.yml > user-data.yml
 
       - name: Configure AWS CLI
         uses: aws-actions/configure-aws-credentials@v4.3.1
