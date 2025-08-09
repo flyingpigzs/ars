@@ -3,6 +3,8 @@ package_update: true
 package_upgrade: true
 packages:
   - git
+  - python3-venv
+  - python3-pip
 
 groups:
   - ars
@@ -15,9 +17,17 @@ users:
     homedir: /home/ars
 
 runcmd:
+  # import OpenAI API key
   - echo "OPENAI_API_KEY=${OPENAI_API_KEY}" >> /etc/environment
   - cd /home/ars
-  - rm -rf .
+  - rm -rf /home/ars/*
+  # fetch the release v1.0.0
   - git clone --branch release/v1.0.0 --depth 1 https://${GH_PAT}@github.com/neuvo-ai/ars.git .
   - echo "REACT_APP_GEMINI_API_KEY=${REACT_APP_GEMINI_API_KEY}" > .env
   - chown -R ars:ars /home/ars
+  # virtual environment
+  - su - ars
+  - cd ~
+  - python3 -m venv .venv
+  - source .venv/bin/activate
+  - pip install -r requirements.txt 
