@@ -19,8 +19,8 @@ write_files:
       User=www-data
       Group=www-data
       WorkingDirectory=/srv/ars
-      Environment="PATH=/srv/ars/.venv/bin"
-      ExecStart=/srv/ars/.venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 3 --proxy-headers
+      Environment="PATH=/srv/ars/.venv/bin" "OPENAI_API_KEY=${OPENAI_API_KEY}"
+      ExecStart=/srv/ars/.venv/bin/uvicorn backend.endpoint_new:app --host 0.0.0.0 --port 8000 --workers 3 --proxy-headers
       Restart=always
       RestartSec=3
 
@@ -40,7 +40,7 @@ write_files:
 
 runcmd:
   # import OpenAI API key
-  - echo "OPENAI_API_KEY=${OPENAI_API_KEY}" >> /etc/environment
+  # - echo "OPENAI_API_KEY=${OPENAI_API_KEY}" >> /etc/environment
   # - cd /home/ars
   # - rm -rf .bash_logout .bashrc .profile .ssh
   # fetch the release v1.0.0
