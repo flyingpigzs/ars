@@ -20,10 +20,9 @@ runcmd:
   # import OpenAI API key
   - echo "OPENAI_API_KEY=${OPENAI_API_KEY}" >> /etc/environment
   - cd /home/ars
-  - rm -rf /home/ars/*
   # fetch the release v1.0.0
-  - git clone --branch release/v1.0.0 --depth 1 https://${GH_PAT}@github.com/neuvo-ai/ars.git .
-  - echo "REACT_APP_GEMINI_API_KEY=${REACT_APP_GEMINI_API_KEY}" > .env
+  - git clone --branch release/v1.0.0 --depth 1 https://${GH_PAT}@github.com/neuvo-ai/ars.git ars
+  - echo "REACT_APP_GEMINI_API_KEY=${REACT_APP_GEMINI_API_KEY}" > ars/google-realtime/.env
   - chown -R ars:ars /home/ars
   # virtual environment
   - su - ars
