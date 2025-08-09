@@ -5,28 +5,51 @@ packages:
   - git
   - python3-venv
   - python3-pip
+  - nginx
 
-groups:
-  - ars
+write_files:
+  - path: /etc/systemd/system/ars-backend.service
+    content: |
+      # /etc/systemd/system/ars-backend.service
+      [Unit]
+      Description=ARS backend with Uvicorn
+      After=network.target
 
-users:
-  - default
-  - name: ars
-    primary_group: ars
-    shell: /bin/bash
-    homedir: /home/ars
+      [Service]
+      User=www-data
+      Group=www-data
+      WorkingDirectory=/srv/ars
+      Environment="PATH=/srv/ars/.venv/bin"
+      ExecStart=/srv/ars/.venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 3 --proxy-headers
+      Restart=always
+      RestartSec=3
+
+      [Install]
+      WantedBy=multi-user.target
+
+
+# groups:
+#   - ars
+
+# users:
+#   - default
+#   - name: ars
+#     primary_group: ars
+#     shell: /bin/bash
+#     homedir: /home/ars
 
 runcmd:
   # import OpenAI API key
   - echo "OPENAI_API_KEY=${OPENAI_API_KEY}" >> /etc/environment
-  - cd /home/ars
-  - rm -rf .bash_logout .bashrc .profile .ssh
+  # - cd /home/ars
+  # - rm -rf .bash_logout .bashrc .profile .ssh
   # fetch the release v1.0.0
-  - git clone --branch release/v1.0.0 --depth 1 https://${GH_PAT}@github.com/neuvo-ai/ars.git .
-  - echo "REACT_APP_GEMINI_API_KEY=${REACT_APP_GEMINI_API_KEY}" > google-realtime/.env
-  - chown -R ars:ars /home/ars
+  - git clone --branch release/v1.0.0 --depth 1 https://${GH_PAT}@github.com/neuvo-ai/ars.git /srv/ars
+  - echo "REACT_APP_GEMINI_API_KEY=${REACT_APP_GEMINI_API_KEY}" > /srv/ars/google-realtime/.env
   # virtual environment
-  - su - ars
-  - python3 -m venv .venv
-  - source .venv/bin/activate
-  - pip install -r requirements.txt 
+  - python3 -m venv /srv/ars/.venv
+  - /srv/ars/.venv/bin/pip install -r /srv/ars/backend/requirements.txt 
+  # start ARS backend
+  - systemctl daemon-reload
+  - systemctl enable ars-backend.service
+  - systemctl start ars-backend.service
