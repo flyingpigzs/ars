@@ -21,6 +21,9 @@ on:
       security_group_id:
         description: 'Security Group ID (sg-xxxxxxxxxxxxxx)'
         required: true
+      backend_domain:
+        description: 'The domain name of the backend (http://ars.neuvo.ai)'
+        required: true
 
 jobs:
   deploy:
@@ -36,6 +39,7 @@ jobs:
           export GH_PAT=${{ secrets.GH_PAT }}
           export OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
           export REACT_APP_GEMINI_API_KEY=${{ secrets.REACT_APP_GEMINI_API_KEY }}
+          export BACKEND_DOMAIN=${{ github.event.inputs.backend_domain }}
           envsubst < devops/cloud-init/release-v1.yml > user-data.yml
 
       - name: Configure AWS CLI

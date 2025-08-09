@@ -6,6 +6,8 @@ packages:
   - python3-venv
   - python3-pip
   - nginx
+  - npm
+
 
 write_files:
   - path: /etc/systemd/system/ars-backend.service
@@ -18,38 +20,57 @@ write_files:
       [Service]
       User=www-data
       Group=www-data
-      WorkingDirectory=/srv/ars
+      WorkingDirectory=/srv/ars/backend
       Environment="PATH=/srv/ars/.venv/bin" "OPENAI_API_KEY=${OPENAI_API_KEY}"
-      ExecStart=/srv/ars/.venv/bin/uvicorn backend.endpoint_new:app --host 0.0.0.0 --port 8000 --workers 3 --proxy-headers
+      ExecStart=/srv/ars/.venv/bin/uvicorn endpoint_new:app --host 127.0.0.1 --port 8000 --workers 5 --proxy-headers
       Restart=always
       RestartSec=3
 
       [Install]
       WantedBy=multi-user.target
 
+  - path: /etc/nginx/site-enabled/ars
+    content: |
+      server {
+        listen 80;
+        root /var/www/ars-frontend;
+        index index.html;
 
-# groups:
-#   - ars
+        location / {
+          try_files $uri $uri/ /index.html;
+        }
 
-# users:
-#   - default
-#   - name: ars
-#     primary_group: ars
-#     shell: /bin/bash
-#     homedir: /home/ars
+        location /backend/ {
+          proxy_pass http://127.0.0.1:8000/;
+          proxy_http_version 1.1;
+          proxy_set_header Host $host;
+          proxy_set_header X-Real-IP $remote_addr;
+          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+          proxy_set_header X-Forwarded-Proto $scheme;
+
+          # for WebSocket if there is
+          proxy_set_header Upgrade $http_upgrade;
+          proxy_set_header Connection "upgrade";
+        }
+      }
+
 
 runcmd:
-  # import OpenAI API key
-  # - echo "OPENAI_API_KEY=${OPENAI_API_KEY}" >> /etc/environment
-  # - cd /home/ars
-  # - rm -rf .bash_logout .bashrc .profile .ssh
   # fetch the release v1.0.0
   - git clone --branch release/v1.0.0 --depth 1 https://${GH_PAT}@github.com/neuvo-ai/ars.git /srv/ars
   - echo "REACT_APP_GEMINI_API_KEY=${REACT_APP_GEMINI_API_KEY}" > /srv/ars/google-realtime/.env
   # virtual environment
   - python3 -m venv /srv/ars/.venv
   - /srv/ars/.venv/bin/pip install -r /srv/ars/backend/requirements.txt 
-  # start ARS backend
+  # start ars backend
   - systemctl daemon-reload
   - systemctl enable ars-backend.service
   - systemctl start ars-backend.service
+  # build ars frontend
+  - cd /srv/ars/google-realtime
+  - npm install
+  - REACT_APP_BACKEND_BASE_URL="${BACKEND_DOMAIN}/backend" npm run build
+  - ln -s /srv/ars/google-realtime/build /var/www/ars-frontend
+  # config nginx
+  - rm -f /etc/nginx/site-enabled/default
+  - systemctl restart nginx
